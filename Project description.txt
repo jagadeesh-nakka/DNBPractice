@@ -1,0 +1,193 @@
+   
+
+Interview Experience Portal (Java, SQL)
+Developed a full-stack web application where users can:
+
+Sign up, sign in, and manage their accounts securely.
+
+Browse interview experiences shared by various candidates.
+
+Interact with posts through comments, upvotes, saves, and sharing options.
+
+Share their own interview experiences and post them in groups.
+
+Use advanced filters based on company, college, package, and DSA topics to find relevant experiences easily.
+
+Built an admin panel for content moderation and user management.
+  
+**Technologies Used**:  
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Java, Spring Boot  
+- **Database**: MySQL  
+- **Tools**: Git, GitHub
+
+**Key Features**:
+- User authentication for both candidates and administrators.
+- Post, upvote, and comment on interview experiences.
+- Admin panel for managing posts and user activity.
+  
+**Impact**:  
+- The portal serves as a valuable resource for candidates looking for real-life interview experiences, helping them prepare better and gain insights into different interview processes.
+
+---
+
+### 2. **User Access Control (Java, SQL)**
+
+User Access Control System (Java, SQL)
+
+Built a system where users have different access levels like Admin, Manager, and User.
+
+Implemented login and signup features using JWT tokens for secure authentication.
+
+Used Spring Security to protect APIs based on user roles.
+
+Stored user data safely in a SQL database with password encryption.
+
+Allowed only authorized users to access or modify certain information.
+
+Designed a simple structure to manage users, roles, and permissions easily
+
+**Technologies Used**:  
+- **Backend**: Java, Spring Boot  
+- **Database**: MySQL  
+- **Authentication**: JWT Tokens, Spring Security  
+- **Tools**: Git, GitHub
+
+**Key Features**:
+- Role-based access control (RBAC).
+- Secure authentication and authorization using JWT tokens.
+- Data encryption for secure storage.
+
+**Impact**:  
+- The system ensures secure management of user roles and access, minimizing unauthorized access to sensitive data and resources.
+
+---
+
+### 3. **Employee Management System (Java, SQL)**
+
+Employee Management System (Java, SQL)
+
+Built a Java-based application to manage employee records and payroll information.
+
+Implemented CRUD operations (Create, Read, Update, Delete) using JDBC and MySQL.
+
+Created different user roles: Admin, Manager, and Employee, each with specific permissions.
+
+Admin can add, edit, or remove employee details; Manager can view and manage assigned employees; Employee can view their own profile and salary details.
+
+Designed a simple and responsive UI for easy use.
+
+Secured data access based on user roles to protect sensitive information.
+
+Organized the project using MVC architecture for better code structure and maintenance.
+
+**Technologies Used**:  
+- **Backend**: Java, Spring Boot  
+- **Database**: MySQL  
+- **Tools**: Git, GitHub, JDBC
+
+**Key Features**:
+- CRUD operations for employee records.
+- Role-based access (Admin, Manager, Employee).
+- Payroll and salary processing functionality.
+
+**Impact**:  
+- The system has streamlined employee management for organizations, reducing manual errors and improving workflow efficiency.
+
+---
+
+### 4. **CineConnects App (React Native)**
+
+CineConnects App (React Native, Firebase)
+
+Built a cross-platform mobile app for movie discovery and social networking.
+
+Users can discover new movies, connect with friends, write reviews, and get recommendations.
+
+Implemented user authentication (signup/login) using Firebase Authentication.
+
+Integrated movie data APIs to fetch the latest movies and details.
+
+Added notifications to alert users about friend activities and movie updates.
+
+Stored user profiles, connections, and reviews using Firebase Realtime Database.
+
+Designed a responsive, user-friendly interface to ensure smooth experience across Android and iOS.
+
+Personalized movie suggestions based on user interests and activity.
+
+**Technologies Used**:  
+- **Frontend**: React Native, JavaScript  
+- **Backend**: Firebase  
+- **API Integration**: Movie API for movie data
+
+**Key Features**:
+- Movie discovery with personalized recommendations.
+- Social networking features like friend connections and reviews.
+- User authentication and push notifications for new movie releases.
+
+**Impact**:  
+- The app enhanced user engagement by offering personalized movie recommendations and an interactive platform for movie lovers to share their experiences.
+
+---
+
+### 5. **E-commerce Website (React)**
+
+E-commerce Website (React)
+
+Created a responsive and user-friendly e-commerce website using React.
+
+Users can browse products, search for items, add to cart, and track orders.
+
+Built features like product listing, product details page, and shopping cart management.
+
+Implemented order tracking to view order status after purchase.
+
+Focused on smooth navigation and intuitive UI design for a better shopping experience.
+
+Used React Router for managing different pages and state management for cart operations.
+
+**Technologies Used**:  
+- **Frontend**: React, JavaScript  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB  
+- **Tools**: Git, GitHub
+
+**Key Features**:
+- Product search and filters.
+- Shopping cart functionality.
+- Order tracking and user authentication.
+
+**Impact**:  
+- The website improves the shopping experience by providing users with an easy way to search, shop, and track their orders.
+
+---
+
+### 6. **Canva Editor (JavaScript, HTML/CSS)**
+
+Canva Editor (Web Application)
+Built a design editor web application where users can create, edit, and manage their designs.
+
+Implemented user authentication (Login/Signup) for secure access.
+
+Users can save their designs to the database and download them in formats like PNG, JPG, and SVG.
+
+Designed an easy-to-use interface for creating and editing graphics.
+
+Ensured the application is responsive and works well on different devices.
+
+Focused on providing a smooth design experience with tools for adding text, shapes, and images.
+**Technologies Used**:  
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Node.js (if needed for saving designs)
+
+**Key Features**:
+- Design creation and editing tools.
+- Multiple download formats (PNG, JPG, SVG).
+- User authentication and saving of designs to the database.
+
+**Impact**:  
+- The Canva Editor is a valuable tool for users who want to create and edit designs easily without needing advanced graphic design software.
+
+---
+
