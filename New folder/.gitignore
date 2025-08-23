@@ -1,0 +1,24 @@
+# Node.js / React
+frontend/node_modules
+frontend/build
+
+# Java / Spring Boot
+backend/target
+backend/.idea
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# General
+*.log
+.DS_Store
+.env
+.vscode/    
+.idea/
+*.iml   
+*.swp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log
+lerck-debug.log*
+.pnpm-debug.log*
