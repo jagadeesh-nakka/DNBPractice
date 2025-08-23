@@ -1,0 +1,118 @@
+/* src/styles/Home.css */
+
+.home-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Search bar */
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 50%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Skill matrix container */
+.skill-matrix {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Individual skill square */
+.skill-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.skill-card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.skill-card p {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+}
+
+/* User skills list */
+.user-skills {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-skills h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-skills li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.selected-skills-home {
+  margin-bottom: 15px;
+}
+
+.selected-skill-items-home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.selected-skill-home {
+  background-color: #007bff;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.selected-skill-home button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+}
