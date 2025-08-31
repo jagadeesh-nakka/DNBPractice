@@ -116,3 +116,33 @@ h1 {
   margin-left: 5px;
   cursor: pointer;
 }
+
+
+.split-layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left-panel {
+  min-width: 200px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
+
+.splitter {
+  width: 5px;
+  background-color: #ccc;
+  cursor: ew-resize;
+  user-select: none;
+}
+
+.right-panel {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 1rem;
+}
