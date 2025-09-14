@@ -126,7 +126,7 @@ const Register = () => {
         login(data.user, data.token);
         
         // Redirect to home page
-        navigate('/');
+        navigate('/home');
       } else {
         const errorData = await response.json();
         setErrors({ submit: errorData.message || 'Registration failed' });

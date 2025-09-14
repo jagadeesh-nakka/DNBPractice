@@ -123,3 +123,28 @@
 // };
 
 // export default authService;
+
+// src/services/auth.js
+export const login = async (username, password) => {
+  // Simulate backend check
+  if (!username || !password) {
+    return { success: false, error: 'Username and password are required' };
+  }
+
+  // For demo, accept any username/password
+  const user = { id: Date.now(), username, role: 'USER' };
+
+  localStorage.setItem('user', JSON.stringify(user));
+  return { success: true };
+};
+
+export const getCurrentUser = async () => {
+  const user = localStorage.getItem('user');
+  return user ? JSON.parse(user) : null;
+};
+
+export const logout = () => {
+  localStorage.removeItem('user');
+};
+
+export const isAuthenticated = () => !!localStorage.getItem('user');
